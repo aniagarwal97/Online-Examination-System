@@ -1,0 +1,16 @@
+.login-btn{
+	margin-left: 179px;
+}
+body{
+	margin-top: 250px;
+	margin-left: 550px; 
+	background:  #111E2F url("../img/city1.png") no-repeat center;
+}
+
+body .field{
+	width: 250px;
+	height: 35px;
+}
+.account{
+	color: white;
+}
