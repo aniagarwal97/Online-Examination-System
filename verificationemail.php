@@ -12,9 +12,7 @@ Password: '.$password.'
 ------------------------
  
 Please click this link to activate your account:
-localhost/oes/verify.php?email='.$email.'&hash='.$hash.'
- 
-'; // Our message above including the link
+localhost/oes/verify.php?email='.$email.'&hash='.$hash.''; // Our message above including the link
                      
 $headers = 'From:noreply@localhost' . "\r\n"; // Set from headers
 mail($to, $subject, $message, $headers);
